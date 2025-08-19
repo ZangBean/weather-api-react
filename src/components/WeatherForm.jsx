@@ -12,7 +12,7 @@ function WeatherForm({ city, setCity, getWeather, isFetching }) {
         type="text"
         id="cityInput"
         autoComplete="off"
-        placeholder="Nhập tên thành phố"
+        placeholder="Nhập tên địa điểm"
         value={city}
         onChange={(e) => setCity(e.target.value)}
         onKeyDown={handleKeyDown}

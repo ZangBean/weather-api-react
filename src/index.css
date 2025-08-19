@@ -74,6 +74,7 @@
 
 .form-box {
   max-width: 400px;
+  margin: 5rem 0 1rem;
   width: 100%;
   border: 2rem solid #fff;
   border-radius: 12px;
@@ -351,5 +352,77 @@ iframe {
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    gap: 0;
+  }
+  iframe {
+    max-width: 600px;
+  }
+  .container .form-box,
+  .container .map-container {
+    margin: 5rem 1rem 1rem 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  iframe {
+    max-width: 400px;
+  }
+  #time,
+  #date {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    gap: 0;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .container .form-box {
+    margin-top: 5rem;
+    max-width: 600px;
+  }
+  .container .map-container {
+    margin: 0 auto;
+  }
+
+  iframe {
+    max-width: 600px;
+    margin-bottom: 1rem;
+  }
+
+  #result .err {
+    height: auto;
+  }
+}
+
+@media (max-width: 604px) {
+  iframe,
+  .container .form-box {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  iframe,
+  .container .form-box {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 412px) {
+  iframe,
+  .container .form-box {
+    max-width: 350px;
   }
 }
