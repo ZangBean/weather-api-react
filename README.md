@@ -1,12 +1,11 @@
-# React + Vite
+# Weather API - React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ứng dụng này cho phép tra cứu thông tin thời tiết hiện tại bằng cách sử dụng OpenWeatherMap API.
 
-Currently, two official plugins are available:
+## Mô tả
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ứng dụng sử dụng API của OpenWeatherMap để lấy dữ liệu thời tiết dựa trên tên thành phố hoặc quốc gia. Người dùng có thể:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Tra cứu thời tiết hiện tại.
+- Lấy thông tin chi tiết như nhiệt độ, độ ẩm, tốc độ gió, điều kiện thời tiết...
+---
