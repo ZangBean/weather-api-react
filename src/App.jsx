@@ -58,7 +58,7 @@ function App() {
       updateTime(newLocalTime);
 
       // Save history
-      saveHistory(selectCity);
+      saveHistory(data.name);
 
       // Update animation based on temp
       if (data.main.temp > 30) {
