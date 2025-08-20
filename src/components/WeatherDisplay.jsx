@@ -18,7 +18,7 @@ function WeatherDisplay({ data, error }) {
       <h3>Thời tiết tại {name}</h3>
       <div>
         <img
-          src={`http://openweathermap.org/img/wn/${weather[0].icon}@2x.png`}
+          src={`https://openweathermap.org/img/wn/${weather[0].icon}@2x.png`}
           alt="icon thời tiết"
         />
       </div>
